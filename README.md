@@ -10,7 +10,7 @@ If you want to create a new plugin for this application, you have to implement t
 ### Example:
 Clone and build the example application:
 ```
-go get -u github.com/xellio/modules && cd $GOPATH/src/github.com/xellio/modules/
+go get -u github.com/xellio/golang-plugin-example && cd $GOPATH/src/github.com/xellio/golang-plugin-example/
 make
 ```
 
@@ -33,7 +33,7 @@ Hello from THIRD - Written in C...
 ```
 ***NOTE:*** In this example, the plugins were executed in a goroutine - so the order of the output can change.
 
-In the application root ($GOPATH/src/github.com/xellio/modules/)  you will find a plugins/ directory, conaining the loaded plugins (.so files):
+In the application root ($GOPATH/src/github.com/xellio/golang-plugin-example/)  you will find a plugins/ directory, conaining the loaded plugins (.so files):
 ```
 ...
 ├── plugins
