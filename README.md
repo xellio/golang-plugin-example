@@ -10,7 +10,8 @@ If you want to create a new plugin for this application, you have to implement t
 ### Example:
 Clone and build the example application:
 ```
-go get -u github.com/xellio/golang-plugin-example && cd $GOPATH/src/github.com/xellio/golang-plugin-example/
+go get -u github.com/xellio/golang-plugin-example
+cd $GOPATH/src/github.com/xellio/golang-plugin-example/
 make
 ```
 
